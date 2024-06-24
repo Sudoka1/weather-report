@@ -1,0 +1,73 @@
+.main {
+    padding: 20px;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh; /* Ensures the section has a minimum height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff; /* Default text color */
+  }
+  
+  .weather-info {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .weather-info h2 {
+    font-size: 2.5em;
+    color: #00d4ff;
+  }
+  
+  .weather-info p {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+  
+  .forecast {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .forecast h3 {
+    margin-bottom: 20px;
+    color: #00d4ff;
+  }
+  
+  .forecast .card {
+    width: 110%;
+    height: 100%;
+    margin: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.3); /* More transparent background */
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .forecast .card-body {
+    padding: 20px;
+  }
+  
+  .forecast .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .forecast .card-text {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
